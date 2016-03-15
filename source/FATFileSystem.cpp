@@ -19,14 +19,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include "mbed.h"
+#include "mbed-drivers/mbed.h"
 
-#include "ffconf.h"
-#include "mbed_debug.h"
+#include "./ChaN/ffconf.h"
+#include "mbed-drivers/mbed_debug.h"
 
-#include "FATFileSystem.h"
-#include "FATFileHandle.h"
-#include "FATDirHandle.h"
+#include "fatfs/FATFileSystem.h"
+#include "fatfs/FATFileHandle.h"
+#include "fatfs/FATDirHandle.h"
 
 DWORD get_fattime(void) {
     time_t rawtime;

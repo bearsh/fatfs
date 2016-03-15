@@ -19,11 +19,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include "ff.h"
-#include "ffconf.h"
-#include "mbed_debug.h"
+#include "./ChaN/ff.h"
+#include "./ChaN/ffconf.h"
+#include "mbed-drivers/mbed_debug.h"
 
-#include "FATFileHandle.h"
+#include "fatfs/FATFileHandle.h"
 
 FATFileHandle::FATFileHandle(FIL fh) {
     _fh = fh;

@@ -22,9 +22,9 @@
 #ifndef MBED_FATFILESYSTEM_H
 #define MBED_FATFILESYSTEM_H
 
-#include "FileSystemLike.h"
-#include "FileHandle.h"
-#include "ff.h"
+#include "mbed-drivers/FileSystemLike.h"
+#include "mbed-drivers/FileHandle.h"
+#include "../source/ChaN/ff.h"
 #include <stdint.h>
 
 using namespace mbed;

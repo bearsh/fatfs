@@ -8,8 +8,8 @@
 /*-----------------------------------------------------------------------*/
 
 #include "diskio.h"
-#include "mbed_debug.h"
-#include "FATFileSystem.h"
+#include "mbed-drivers/mbed_debug.h"
+#include "fatfs/FATFileSystem.h"
 
 using namespace mbed;
 

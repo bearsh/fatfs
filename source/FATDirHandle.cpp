@@ -20,8 +20,8 @@
  * SOFTWARE.
  */
 #include <string.h>
-#include "ff.h"
-#include "FATDirHandle.h"
+#include "./ChaN/ff.h"
+#include "fatfs/FATDirHandle.h"
 
 using namespace mbed;
 

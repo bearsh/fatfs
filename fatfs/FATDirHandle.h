@@ -22,7 +22,7 @@
 #ifndef MBED_FATDIRHANDLE_H
 #define MBED_FATDIRHANDLE_H
 
-#include "DirHandle.h"
+#include "mbed-drivers/DirHandle.h"
 
 using namespace mbed;
 

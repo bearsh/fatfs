@@ -22,7 +22,7 @@
 #ifndef MBED_FATFILEHANDLE_H
 #define MBED_FATFILEHANDLE_H
 
-#include "FileHandle.h"
+#include "mbed-drivers/FileHandle.h"
 
 using namespace mbed;
 
