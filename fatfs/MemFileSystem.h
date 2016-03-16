@@ -6,7 +6,7 @@
 #ifndef MBED_MEMFILESYSTEM_H
 #define MBED_MEMFILESYSTEM_H
 
-#include "mbed-drivers/FATFileSystem.h"
+#include "fatfs/FATFileSystem.h"
 
 namespace mbed
 {
