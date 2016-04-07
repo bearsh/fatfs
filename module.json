@@ -8,6 +8,11 @@
     "fat"
   ],
   "author": "mbed",
+  "homepage": "https://github.com/bearsh/fatfs",
+  "repository": {
+    "url": "git@github.com:bearsh/fatfs.git",
+    "type": "git"
+  },
   "license": "Apache-2.0",
   "dependencies": {
     "mbed-drivers": "^1.0.0"
